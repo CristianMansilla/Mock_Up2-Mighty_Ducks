@@ -62,11 +62,11 @@ a:active{
     z-index: 1;
 }
 
-.tittle{
+.title{
     color: var(--brown);
 }
 
-.tittle_text{
+.title > h1{
     font-size: 3.5em;
     padding-left: 0.5em;
 }
@@ -97,18 +97,18 @@ a:active{
     background-color: green;
 }
 
-.container-subtittle{
+.container-subtitle{
     max-height: 5em;
     text-align: center;
     margin-bottom: 5em;
 }
 
-.subtittle{
+.subtitle{
     width: 100%;
     background-color: black;
 }
 
-.subtittle h2{
+.subtitle > h2{
     font-size: 2em;
     color: white;
 }
@@ -137,6 +137,7 @@ a:active{
 
 .termino{
     font-weight: bold;
+    /* text-indent: 2em; */
 }
 
 .sangria{
